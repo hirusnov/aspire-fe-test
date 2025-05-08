@@ -5,10 +5,11 @@
   flex-direction: row;
   width: 1366px;
   max-width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0 auto;
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
+  align-items: stretch;
 }
 
 .sider {

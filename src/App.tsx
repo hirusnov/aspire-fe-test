@@ -35,7 +35,7 @@ function App() {
         <Balance />
         <Cards />
       </Content>
-      <Content className="overflow-auto w-full h-[calc(100%_-_56px)] absolute pointer-events-none z-50">
+      <Content className="overflow-auto w-full h-screen absolute pointer-events-none z-50">
         <Card className="mt-[445px] pointer-events-auto">
           <div className="bg-amber-600 h-[1000px]">ok</div>
         </Card>
