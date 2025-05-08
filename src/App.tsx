@@ -35,11 +35,11 @@ function App() {
         <Balance />
         <Cards />
       </Content>
-      <div className="overflow-auto w-full h-[1000px] absolute pointer-events-none">
-        <Card className="mt-[500px] pointer-events-auto">
+      <Content className="overflow-auto w-full h-screen absolute pointer-events-none z-50">
+        <Card className="mt-[445px] pointer-events-auto">
           <div className="bg-amber-600 h-[1000px]">ok</div>
         </Card>
-      </div>
+      </Content>
       {isMobile && (
         <Footer className="p-0 shadow-[0px_-3px_6px_rgba(0,0,0,0.078)] z-[9999]">
           <Navigation
