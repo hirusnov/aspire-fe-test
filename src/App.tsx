@@ -1,4 +1,4 @@
-import { Card, Grid, Input, Layout } from 'antd'
+import { Card, Grid, Layout } from 'antd'
 import './App.css'
 import '@ant-design/v5-patch-for-react-19'
 import Sider from 'antd/es/layout/Sider'
@@ -7,12 +7,10 @@ import Navigation from './components/Navigation'
 import AspireLogo from './assets/svg/aspire.svg?react'
 import Balance from './components/Balance'
 import Cards from './components/CardManagement'
-import { useState } from 'react'
 
 const { useBreakpoint } = Grid
 
 function App() {
-  const [isScrollable, setIsScrollable] = useState<boolean>(false)
   const screens = useBreakpoint()
   const isMobile = !screens.md
 
@@ -37,11 +35,7 @@ function App() {
         <Balance />
         <Cards />
       </Content>
-      <div
-        className={`overflow-auto w-full h-[1000px] absolute ${
-          isScrollable ? 'pointer-events-auto' : 'pointer-events-none'
-        }`}
-      >
+      <div className="overflow-auto w-full h-[1000px] absolute pointer-events-none">
         <Card className="mt-[500px] pointer-events-auto">
           <div className="bg-amber-600 h-[1000px]">ok</div>
         </Card>
