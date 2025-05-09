@@ -24,7 +24,7 @@ const functions: {
 const CardFunction: FC<CardFunctionProps> = ({ className }) => {
   return (
     <div
-      className={`grid grid-cols-5 gap-[10px] bg-light-blue rounded-2xl px-[27px] py-[20px] w-[414px] mt-8 ${className}`}
+      className={`grid grid-cols-5 gap-[10px] bg-light-blue rounded-2xl px-[27px] py-[20px] w-screen md:w-[414px] mt-8 ${className}`}
     >
       {functions.map(({ icon: Icon, label }) => (
         <div key={label} className="flex flex-col items-center gap-[7px] text-center">

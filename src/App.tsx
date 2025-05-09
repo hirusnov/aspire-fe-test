@@ -41,9 +41,9 @@ function App() {
       </Content>
       {isMobile && (
         <Content className="overflow-auto w-full h-screen absolute pointer-events-none z-50">
-          <div className="mt-[495px] pointer-events-auto">
+          <div className="mt-[495px] pointer-events-auto bg-white pb-30 rounded-t-3xl">
             <CardFunction className="rounded-t-3xl rounded-b-none" />
-            <div className="bg-white pb-30 px-6 pt-6">
+            <div className="px-6 pt-6">
               <CardDetails />
               <CardTransactions />
             </div>
