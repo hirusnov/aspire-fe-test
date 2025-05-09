@@ -85,6 +85,14 @@
   border-radius: 8px;
 }
 
+.slick-slide.slick-active .aspire-card {
+  transform: scaleY(1);
+}
+
+.slick-slide .aspire-card {
+  transform: scaleY(0.9);
+}
+
 .ant-collapse {
   border: 1px solid #FCFCFC;
   box-shadow: 0 2px 12px #00000014;

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <g transform="translate(213 -305)">
-    <circle fill="#325baf" cx="16" cy="16" r="16" transform="translate(-213 305)"/>
+    <circle fill="currentColor" cx="16" cy="16" r="16" transform="translate(-213 305)"/>
     <g transform="translate(-206 222.078)">
       <g transform="translate(0 90.922)">
         <path fill="#9ac0fa" stroke="#325baf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.25px" d="M40.53,166.985a.219.219,0,0,0-.054-.159l-1.737-1.977a.219.219,0,0,0-.31-.02,9.039,9.039,0,0,0-1.97,2.46.219.219,0,0,0,.087.3l2.309,1.262a.219.219,0,0,0,.3-.087,5.976,5.976,0,0,1,1.3-1.626A.219.219,0,0,0,40.53,166.985Z" transform="translate(-35.357 -162.636)"/>
