@@ -14,15 +14,13 @@ const items: TabsProps['items'] = [
   },
 ]
 
-const Cards = () => {
+const CardMobile = () => {
   return (
     <div className="mt-[34px]">
       <Tabs items={items} />
-      <div className="md:rounded-lg md:p-10 md:border-1 md:border-border md:shadow-[0px_2px_12px_rgba(0,0,0,0.08)]">
-        <CardCarousel />
-      </div>
+      <CardCarousel />
     </div>
   )
 }
 
-export default Cards
+export default CardMobile

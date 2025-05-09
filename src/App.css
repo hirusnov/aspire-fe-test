@@ -85,6 +85,28 @@
   border-radius: 8px;
 }
 
+.ant-collapse {
+  border: 1px solid #FCFCFC;
+  box-shadow: 0 2px 12px #00000014;
+}
+
+.ant-collapse .ant-collapse-content {
+  border-top: 1px solid #00000014;
+}
+
+/* Hide scrollbar but still scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
 @media (max-width: 768px) {
   .app-layout {
     flex-direction: column;

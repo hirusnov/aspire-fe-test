@@ -22,6 +22,11 @@ const config: ThemeConfig = {
       itemColor: '#22222230',
       itemSelectedColor: '#222222',
     },
+    Collapse: {
+      headerBg: '#F5F9FF',
+      headerPadding: '24px',
+      contentPadding: '24px',
+    },
   },
 }
 
