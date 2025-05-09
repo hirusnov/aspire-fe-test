@@ -40,8 +40,8 @@ function App() {
         {!isMobile ? <CardDesktop /> : <CardMobile />}
       </Content>
       {isMobile && (
-        <Content className="overflow-auto w-full h-screen absolute pointer-events-none z-50">
-          <div className="mt-[495px] pointer-events-auto bg-white pb-30 rounded-t-3xl">
+        <Content className="overflow-auto w-full h-[calc(100%_-_56px)] absolute pointer-events-none z-50">
+          <div className="mt-[495px] pointer-events-auto bg-white pb-16 rounded-t-3xl">
             <CardFunction className="rounded-t-3xl rounded-b-none" />
             <div className="px-6 pt-6">
               <CardDetails />
